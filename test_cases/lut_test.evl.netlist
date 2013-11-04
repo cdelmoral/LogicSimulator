@@ -1,0 +1,68 @@
+20 3
+net in[0] 2
+pin input lut_test.sim_in 0
+pin lut lut_test 1
+net in[1] 2
+pin input lut_test.sim_in 0
+pin lut lut_test 1
+net in[2] 2
+pin input lut_test.sim_in 0
+pin lut lut_test 1
+net in[3] 2
+pin input lut_test.sim_in 0
+pin lut lut_test 1
+net out[0] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[10] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[11] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[12] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[13] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[14] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[15] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[1] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[2] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[3] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[4] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[5] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[6] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[7] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[8] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+net out[9] 2
+pin lut lut_test 0
+pin output lut_test.sim_out 0
+gate input lut_test.sim_in 1
+pin 4 in[0] in[1] in[2] in[3]
+gate lut lut_test 2
+pin 16 out[0] out[1] out[2] out[3] out[4] out[5] out[6] out[7] out[8] out[9] out[10] out[11] out[12] out[13] out[14] out[15]
+pin 4 in[0] in[1] in[2] in[3]
+gate output lut_test.sim_out 1
+pin 16 out[0] out[1] out[2] out[3] out[4] out[5] out[6] out[7] out[8] out[9] out[10] out[11] out[12] out[13] out[14] out[15]

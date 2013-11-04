@@ -1,0 +1,16 @@
+// tris, lut, and assign
+
+module test;
+
+  // 4-to-1 mux
+  
+  wire [3:0] in;
+  wire [15:0] out;
+
+  input lut_test.sim_in(in);
+
+  lut lut_test(out, in);
+
+  output lut_test.sim_out(out);
+
+endmodule

@@ -1,0 +1,720 @@
+86 66
+net a[0] 4
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+pin assign NONE 1
+net a[1] 4
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+pin assign NONE 1
+net a[2] 4
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+pin assign NONE 1
+net a[3] 4
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+pin assign NONE 1
+net a[4] 5
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 0
+net a[5] 5
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 0
+net a[6] 5
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 0
+net a[7] 4
+pin dff NONE 0
+pin xor NONE 1
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 0
+net bit_addr[0] 11
+pin not NONE 1
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 1
+net bit_addr[1] 11
+pin not NONE 1
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 1
+net bit_addr[2] 11
+pin not NONE 1
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 1
+net bit_addr[3] 11
+pin not NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 1
+net ci[0] 3
+pin one NONE 0
+pin xor NONE 2
+pin and NONE 2
+net ci[1] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[2] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[3] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[4] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[5] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[6] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[7] 2
+pin xor NONE 2
+pin and NONE 0
+net en 17
+pin one NONE 0
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+pin and NONE 5
+net mux_in[0] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[10] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[11] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[12] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[13] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[14] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[15] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[1] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[2] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[3] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[4] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[5] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[6] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[7] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[8] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_in[9] 3
+pin tris NONE 1
+pin assign NONE 0
+pin output tris_lut_assign.sim_out 3
+net mux_out 17
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin tris NONE 0
+pin output tris_lut_assign.sim_out 2
+net nn[0] 9
+pin not NONE 0
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+pin and NONE 4
+net nn[1] 9
+pin not NONE 0
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+pin and NONE 3
+net nn[2] 9
+pin not NONE 0
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+pin and NONE 2
+net nn[3] 9
+pin not NONE 0
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+net one_hot[0] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[10] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[11] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[12] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[13] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[14] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[15] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[1] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[2] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[3] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[4] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[5] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[6] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[7] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[8] 2
+pin and NONE 0
+pin tris NONE 2
+net one_hot[9] 2
+pin and NONE 0
+pin tris NONE 2
+net s[0] 2
+pin dff NONE 1
+pin xor NONE 0
+net s[1] 2
+pin dff NONE 1
+pin xor NONE 0
+net s[2] 2
+pin dff NONE 1
+pin xor NONE 0
+net s[3] 2
+pin dff NONE 1
+pin xor NONE 0
+net s[4] 2
+pin dff NONE 1
+pin xor NONE 0
+net s[5] 2
+pin dff NONE 1
+pin xor NONE 0
+net s[6] 2
+pin dff NONE 1
+pin xor NONE 0
+net s[7] 2
+pin dff NONE 1
+pin xor NONE 0
+net word[0] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 4
+net word[10] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 14
+net word[11] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 15
+net word[12] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 16
+net word[13] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 17
+net word[14] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 18
+net word[15] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 19
+net word[1] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 5
+net word[2] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 6
+net word[3] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 7
+net word[4] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 8
+net word[5] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 9
+net word[6] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 10
+net word[7] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 11
+net word[8] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 12
+net word[9] 3
+pin lut tris_lut_assign 0
+pin assign NONE 1
+pin output tris_lut_assign.sim_out 13
+net word_addr[0] 2
+pin lut tris_lut_assign 1
+pin assign NONE 0
+net word_addr[1] 2
+pin lut tris_lut_assign 1
+pin assign NONE 0
+net word_addr[2] 2
+pin lut tris_lut_assign 1
+pin assign NONE 0
+net word_addr[3] 2
+pin lut tris_lut_assign 1
+pin assign NONE 0
+gate one NONE 1
+pin 1 en
+gate not NONE 2
+pin 1 nn[0]
+pin 1 bit_addr[0]
+gate not NONE 2
+pin 1 nn[1]
+pin 1 bit_addr[1]
+gate not NONE 2
+pin 1 nn[2]
+pin 1 bit_addr[2]
+gate not NONE 2
+pin 1 nn[3]
+pin 1 bit_addr[3]
+gate and NONE 6
+pin 1 one_hot[0]
+pin 1 nn[3]
+pin 1 nn[2]
+pin 1 nn[1]
+pin 1 nn[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[1]
+pin 1 nn[3]
+pin 1 nn[2]
+pin 1 nn[1]
+pin 1 bit_addr[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[2]
+pin 1 nn[3]
+pin 1 nn[2]
+pin 1 bit_addr[1]
+pin 1 nn[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[3]
+pin 1 nn[3]
+pin 1 nn[2]
+pin 1 bit_addr[1]
+pin 1 bit_addr[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[4]
+pin 1 nn[3]
+pin 1 bit_addr[2]
+pin 1 nn[1]
+pin 1 nn[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[5]
+pin 1 nn[3]
+pin 1 bit_addr[2]
+pin 1 nn[1]
+pin 1 bit_addr[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[6]
+pin 1 nn[3]
+pin 1 bit_addr[2]
+pin 1 bit_addr[1]
+pin 1 nn[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[7]
+pin 1 nn[3]
+pin 1 bit_addr[2]
+pin 1 bit_addr[1]
+pin 1 bit_addr[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[8]
+pin 1 bit_addr[3]
+pin 1 nn[2]
+pin 1 nn[1]
+pin 1 nn[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[9]
+pin 1 bit_addr[3]
+pin 1 nn[2]
+pin 1 nn[1]
+pin 1 bit_addr[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[10]
+pin 1 bit_addr[3]
+pin 1 nn[2]
+pin 1 bit_addr[1]
+pin 1 nn[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[11]
+pin 1 bit_addr[3]
+pin 1 nn[2]
+pin 1 bit_addr[1]
+pin 1 bit_addr[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[12]
+pin 1 bit_addr[3]
+pin 1 bit_addr[2]
+pin 1 nn[1]
+pin 1 nn[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[13]
+pin 1 bit_addr[3]
+pin 1 bit_addr[2]
+pin 1 nn[1]
+pin 1 bit_addr[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[14]
+pin 1 bit_addr[3]
+pin 1 bit_addr[2]
+pin 1 bit_addr[1]
+pin 1 nn[0]
+pin 1 en
+gate and NONE 6
+pin 1 one_hot[15]
+pin 1 bit_addr[3]
+pin 1 bit_addr[2]
+pin 1 bit_addr[1]
+pin 1 bit_addr[0]
+pin 1 en
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[0]
+pin 1 one_hot[0]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[1]
+pin 1 one_hot[1]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[2]
+pin 1 one_hot[2]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[3]
+pin 1 one_hot[3]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[4]
+pin 1 one_hot[4]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[5]
+pin 1 one_hot[5]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[6]
+pin 1 one_hot[6]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[7]
+pin 1 one_hot[7]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[8]
+pin 1 one_hot[8]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[9]
+pin 1 one_hot[9]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[10]
+pin 1 one_hot[10]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[11]
+pin 1 one_hot[11]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[12]
+pin 1 one_hot[12]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[13]
+pin 1 one_hot[13]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[14]
+pin 1 one_hot[14]
+gate tris NONE 3
+pin 1 mux_out
+pin 1 mux_in[15]
+pin 1 one_hot[15]
+gate lut tris_lut_assign 2
+pin 16 word[0] word[1] word[2] word[3] word[4] word[5] word[6] word[7] word[8] word[9] word[10] word[11] word[12] word[13] word[14] word[15]
+pin 4 word_addr[0] word_addr[1] word_addr[2] word_addr[3]
+gate dff NONE 2
+pin 1 a[0]
+pin 1 s[0]
+gate dff NONE 2
+pin 1 a[1]
+pin 1 s[1]
+gate dff NONE 2
+pin 1 a[2]
+pin 1 s[2]
+gate dff NONE 2
+pin 1 a[3]
+pin 1 s[3]
+gate dff NONE 2
+pin 1 a[4]
+pin 1 s[4]
+gate dff NONE 2
+pin 1 a[5]
+pin 1 s[5]
+gate dff NONE 2
+pin 1 a[6]
+pin 1 s[6]
+gate dff NONE 2
+pin 1 a[7]
+pin 1 s[7]
+gate one NONE 1
+pin 1 ci[0]
+gate xor NONE 3
+pin 1 s[0]
+pin 1 a[0]
+pin 1 ci[0]
+gate xor NONE 3
+pin 1 s[1]
+pin 1 a[1]
+pin 1 ci[1]
+gate xor NONE 3
+pin 1 s[2]
+pin 1 a[2]
+pin 1 ci[2]
+gate xor NONE 3
+pin 1 s[3]
+pin 1 a[3]
+pin 1 ci[3]
+gate xor NONE 3
+pin 1 s[4]
+pin 1 a[4]
+pin 1 ci[4]
+gate xor NONE 3
+pin 1 s[5]
+pin 1 a[5]
+pin 1 ci[5]
+gate xor NONE 3
+pin 1 s[6]
+pin 1 a[6]
+pin 1 ci[6]
+gate xor NONE 3
+pin 1 s[7]
+pin 1 a[7]
+pin 1 ci[7]
+gate and NONE 3
+pin 1 ci[1]
+pin 1 a[0]
+pin 1 ci[0]
+gate and NONE 3
+pin 1 ci[2]
+pin 1 a[1]
+pin 1 ci[1]
+gate and NONE 3
+pin 1 ci[3]
+pin 1 a[2]
+pin 1 ci[2]
+gate and NONE 3
+pin 1 ci[4]
+pin 1 a[3]
+pin 1 ci[3]
+gate and NONE 3
+pin 1 ci[5]
+pin 1 a[4]
+pin 1 ci[4]
+gate and NONE 3
+pin 1 ci[6]
+pin 1 a[5]
+pin 1 ci[5]
+gate and NONE 3
+pin 1 ci[7]
+pin 1 a[6]
+pin 1 ci[6]
+gate assign NONE 2
+pin 4 bit_addr[0] bit_addr[1] bit_addr[2] bit_addr[3]
+pin 4 a[0] a[1] a[2] a[3]
+gate assign NONE 2
+pin 4 word_addr[0] word_addr[1] word_addr[2] word_addr[3]
+pin 4 a[4] a[5] a[6] a[7]
+gate assign NONE 2
+pin 16 mux_in[0] mux_in[1] mux_in[2] mux_in[3] mux_in[4] mux_in[5] mux_in[6] mux_in[7] mux_in[8] mux_in[9] mux_in[10] mux_in[11] mux_in[12] mux_in[13] mux_in[14] mux_in[15]
+pin 16 word[0] word[1] word[2] word[3] word[4] word[5] word[6] word[7] word[8] word[9] word[10] word[11] word[12] word[13] word[14] word[15]
+gate output tris_lut_assign.sim_out 20
+pin 4 a[4] a[5] a[6] a[7]
+pin 4 bit_addr[0] bit_addr[1] bit_addr[2] bit_addr[3]
+pin 1 mux_out
+pin 16 mux_in[0] mux_in[1] mux_in[2] mux_in[3] mux_in[4] mux_in[5] mux_in[6] mux_in[7] mux_in[8] mux_in[9] mux_in[10] mux_in[11] mux_in[12] mux_in[13] mux_in[14] mux_in[15]
+pin 1 word[0]
+pin 1 word[1]
+pin 1 word[2]
+pin 1 word[3]
+pin 1 word[4]
+pin 1 word[5]
+pin 1 word[6]
+pin 1 word[7]
+pin 1 word[8]
+pin 1 word[9]
+pin 1 word[10]
+pin 1 word[11]
+pin 1 word[12]
+pin 1 word[13]
+pin 1 word[14]
+pin 1 word[15]

@@ -1,0 +1,10 @@
+module test 2 3
+wire in 4
+wire out 16
+component input lut_test.sim_in 1
+pin in 3 0
+component lut lut_test 2
+pin out 15 0
+pin in 3 0
+component output lut_test.sim_out 1
+pin out 15 0

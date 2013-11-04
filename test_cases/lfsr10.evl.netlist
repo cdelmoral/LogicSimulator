@@ -1,0 +1,107 @@
+12 13
+net nx 2
+pin xor NONE 0
+pin not NONE 1
+net s[0] 4
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 10
+pin dff NONE 0
+pin dff NONE 1
+net s[1] 4
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 9
+pin dff NONE 0
+pin dff NONE 1
+net s[2] 4
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 8
+pin dff NONE 0
+pin dff NONE 1
+net s[3] 4
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 7
+pin dff NONE 0
+pin dff NONE 1
+net s[4] 4
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 6
+pin dff NONE 0
+pin dff NONE 1
+net s[5] 4
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 5
+pin dff NONE 0
+pin dff NONE 1
+net s[6] 5
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 4
+pin dff NONE 0
+pin dff NONE 1
+pin xor NONE 2
+net s[7] 4
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 3
+pin dff NONE 0
+pin dff NONE 1
+net s[8] 4
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 2
+pin dff NONE 0
+pin dff NONE 1
+net s[9] 4
+pin output lfsr10.sim_out 0
+pin output lfsr10.sim_out 1
+pin dff NONE 0
+pin xor NONE 1
+net x 2
+pin dff NONE 1
+pin not NONE 0
+gate output lfsr10.sim_out 11
+pin 10 s[0] s[1] s[2] s[3] s[4] s[5] s[6] s[7] s[8] s[9]
+pin 1 s[9]
+pin 1 s[8]
+pin 1 s[7]
+pin 1 s[6]
+pin 1 s[5]
+pin 1 s[4]
+pin 1 s[3]
+pin 1 s[2]
+pin 1 s[1]
+pin 1 s[0]
+gate dff NONE 2
+pin 1 s[0]
+pin 1 x
+gate dff NONE 2
+pin 1 s[1]
+pin 1 s[0]
+gate dff NONE 2
+pin 1 s[2]
+pin 1 s[1]
+gate dff NONE 2
+pin 1 s[3]
+pin 1 s[2]
+gate dff NONE 2
+pin 1 s[4]
+pin 1 s[3]
+gate dff NONE 2
+pin 1 s[5]
+pin 1 s[4]
+gate dff NONE 2
+pin 1 s[6]
+pin 1 s[5]
+gate dff NONE 2
+pin 1 s[7]
+pin 1 s[6]
+gate dff NONE 2
+pin 1 s[8]
+pin 1 s[7]
+gate dff NONE 2
+pin 1 s[9]
+pin 1 s[8]
+gate xor NONE 3
+pin 1 nx
+pin 1 s[9]
+pin 1 s[6]
+gate not NONE 2
+pin 1 x
+pin 1 nx
