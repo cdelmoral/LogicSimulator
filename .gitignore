@@ -1,0 +1,7 @@
+# Ignore eclipse settings.
+.settings/
+.classpath
+.project
+
+# Ignore other unneeded files.
+.DS_Store
