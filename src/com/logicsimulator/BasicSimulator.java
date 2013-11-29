@@ -15,7 +15,6 @@ public class BasicSimulator extends Simulator {
 			nl.nextState();
 			nl.markNetsAsUnknown();
 		}
-		nl.checkOutputs();
 	}
 
 }

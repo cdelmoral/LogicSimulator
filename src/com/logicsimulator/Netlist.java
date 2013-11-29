@@ -75,9 +75,11 @@ public class Netlist {
 		}
 	}
 
-	public void checkOutputs() {
+	public boolean checkOutputs() {
 		for (Gate gate : outputGates) {
-			GoldenComparator.compare("test_cases/" + gate.name);
+			if (!GoldenComparator.compare("test_cases/" + gate.name))
+				return false;
 		}
+		return true;
 	}
 }

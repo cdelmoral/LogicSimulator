@@ -1,3 +1,6 @@
+# Java specific.
+*.class
+
 # Ignore eclipse settings.
 .settings/
 .classpath

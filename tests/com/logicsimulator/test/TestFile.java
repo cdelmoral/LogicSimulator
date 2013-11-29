@@ -2,6 +2,7 @@ package com.logicsimulator.test;
 
 import org.junit.Before;
 import org.junit.Test;
+import static org.junit.Assert.assertTrue;
 
 import com.logicsimulator.BasicSimulator;
 import com.logicsimulator.BuilderClient;
@@ -33,6 +34,7 @@ public class TestFile {
 		nl.storeNetlistToFile("test_cases/" + file);
 		Simulator simulator = new BasicSimulator(nl);
 		simulator.simulate();
+		assertTrue(nl.checkOutputs());
 	}
 
 	@Test
