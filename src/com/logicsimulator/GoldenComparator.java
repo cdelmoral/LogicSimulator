@@ -38,7 +38,6 @@ public class GoldenComparator {
 			System.err.println(e.getMessage());
 			throw new RuntimeException();
 		}
-		System.out.println("Correct");
 		return true;
 	}
 }

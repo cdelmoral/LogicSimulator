@@ -74,12 +74,4 @@ public class Netlist {
 			seqGate.computeNextState();
 		}
 	}
-
-	public boolean checkOutputs() {
-		for (Gate gate : outputGates) {
-			if (!GoldenComparator.compare("test_cases/" + gate.name))
-				return false;
-		}
-		return true;
-	}
 }
