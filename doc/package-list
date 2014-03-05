@@ -1,0 +1,13 @@
+com.logicsimulator.builder
+com.logicsimulator.evl.assign
+com.logicsimulator.evl.component
+com.logicsimulator.evl.module
+com.logicsimulator.evl.pin
+com.logicsimulator.evl.statement
+com.logicsimulator.evl.token
+com.logicsimulator.evl.wire
+com.logicsimulator.gate
+com.logicsimulator.net
+com.logicsimulator.netlist
+com.logicsimulator.pin
+com.logicsimulator.simulator
