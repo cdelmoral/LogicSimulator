@@ -7,20 +7,33 @@ import java.util.ListIterator;
 import com.logicsimulator.evl.token.EvlToken;
 import com.logicsimulator.evl.token.EvlTokens;
 
+/**
+ * Class to group different Easy Verilog statements.
+ */
 public class EvlStatements {
+	private String fileName;
+	private List<EvlStatement> evlStats;
 
-	String fileName;
-	List<EvlStatement> evlStats;
-
+	/**
+	 * Constructs a <code>EvlStatements</code> from a <code>EvlTokens</code>. It groups the tokens into separate
+	 * statements.
+	 * @param evlTokens	the tokens to construct the <code>EvlStatements</code> from
+	 */
 	public EvlStatements(EvlTokens evlTokens) {
 		evlStats = groupIntoStatements(evlTokens);
 		fileName = evlTokens.getFileName();
 	}
 
+	/**
+	 * @return	the name of the file where tokens come from
+	 */
 	public String getFileName() {
 		return fileName;
 	}
 
+	/**
+	 * @return	the list iterator for the <code>EvlStatments</code> object
+	 */
 	public ListIterator<EvlStatement> getListIterator() {
 		return evlStats.listIterator();
 	}
@@ -34,20 +47,20 @@ public class EvlStatements {
 				.hasNext();) {
 			token = it.next();
 			List<EvlToken> tokens;
-			EvlStatement.StatementType type;
+			StatementType type;
 
 			if (token.getType() != EvlToken.TokenType.NAME) {
 				throw new RuntimeException();
 			} else if (token.getName().equals("wire")) {
-				type = EvlStatement.StatementType.WIRE;
+				type = StatementType.WIRE;
 			} else if (token.getName().equals("assign")) {
-				type = EvlStatement.StatementType.ASSIGN;
+				type = StatementType.ASSIGN;
 			} else if (token.getName().equals("module")) {
-				type = EvlStatement.StatementType.MODULE;
+				type = StatementType.MODULE;
 			} else if (token.getName().equals("endmodule")) {
-				type = EvlStatement.StatementType.ENDMODULE;
+				type = StatementType.ENDMODULE;
 			} else {
-				type = EvlStatement.StatementType.COMPONENT;
+				type = StatementType.COMPONENT;
 			}
 			tokens = new LinkedList<EvlToken>();
 			tokens.add(token);
