@@ -22,19 +22,19 @@ import com.logicsimulator.evl.wire.EvlWireFSM;
 
 public class EvlModule {
 
-	private String name, fileName;
+	private String type, fileName;
 	private Map<String, Integer> wires;
 	private List<EvlComponent> components;
 
 	public EvlModule(String name, String fileName) {
-		this.name = name;
+		this.type = name;
 		this.fileName = fileName;
 		wires = new HashMap<String, Integer>();
 		components = new LinkedList<EvlComponent>();
 	}
 
 	String getName() {
-		return name;
+		return type;
 	}
 
 	void extractWiresFromStat(EvlStatement stat) {
@@ -94,7 +94,7 @@ public class EvlModule {
 
 	@Override
 	public String toString() {
-		return "module " + name + " " + wires.size() + " " + components.size();
+		return "module " + type + " " + wires.size() + " " + components.size();
 	}
 
 	void storeModuleToFile(String fileName) {
