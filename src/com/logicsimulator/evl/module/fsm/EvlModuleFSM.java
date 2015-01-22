@@ -18,6 +18,10 @@ public class EvlModuleFSM {
 		states = new HashMap<String, EvlModuleFSMState>();
 		states.put("init", new EvlModuleFSMInitState(this));
 		states.put("module", new EvlModuleFSMModuleState(this));
+		states.put("type", new EvlModuleFSMTypeState(this));
+		states.put("done", new EvlModuleFSMDoneState(this));
+		
+		currentState = states.get("init");
 	}
 	
 	public void extractModules() {

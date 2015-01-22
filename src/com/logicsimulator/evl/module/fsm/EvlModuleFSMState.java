@@ -8,6 +8,11 @@ import com.logicsimulator.evl.token.EvlToken;
 public abstract class EvlModuleFSMState {
 	private EvlModuleFSM fsm;
 	
+	/**
+	 * Creates a new state for the modules FSM
+	 * 
+	 * @param fsm	the FSM that will be using this state
+	 */
 	public EvlModuleFSMState(EvlModuleFSM fsm) {
 		this.fsm = fsm;
 	}

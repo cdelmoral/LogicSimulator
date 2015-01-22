@@ -9,12 +9,12 @@ import com.logicsimulator.evl.token.EvlToken;
  * @author carlos
  *
  */
-public class EvlModuleFSMModuleState extends EvlModuleFSMState {
+public class EvlModuleFSMTypeState extends EvlModuleFSMState {
 
 	/**
 	 * @param fsm
 	 */
-	public EvlModuleFSMModuleState(EvlModuleFSM fsm) {
+	public EvlModuleFSMTypeState(EvlModuleFSM fsm) {
 		super(fsm);
 	}
 
@@ -23,9 +23,14 @@ public class EvlModuleFSMModuleState extends EvlModuleFSMState {
 	 */
 	@Override
 	public void consume(EvlToken token) {
-		if (token.getType() == EvlToken.TokenType.NAME) {
-			createNewModule(token.getName());
-			changeState("type");
+		if (token.getType() == EvlToken.TokenType.SINGLE) {
+			if (token.getName().equals(";")) {
+				changeState("done");
+			} else if (token.getName().equals("(")) {
+				changeState("ports");
+			} else {
+				throw new RuntimeException();
+			}
 		} else {
 			throw new RuntimeException();
 		}

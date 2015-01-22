@@ -1,11 +1,13 @@
 # Java specific.
 *.class
 
-# Ignore eclipse settings.
+# Eclipse settings.
 .settings/
 .classpath
 .project
 
-# Ignore other unneeded files.
-.DS_Store
+# Documentation files
 docs/
+
+# Other unneeded files.
+.DS_Store
