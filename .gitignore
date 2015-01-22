@@ -8,6 +8,7 @@
 
 # Documentation files
 docs/
+doc/
 
 # Other unneeded files.
 .DS_Store
