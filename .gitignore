@@ -1,6 +1,10 @@
 # Java specific.
 *.class
 
+# IntelliJ files.
+*.iml
+.idea/
+
 # Eclipse settings.
 .settings/
 .classpath
